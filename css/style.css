@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/************** css starts from here********************/
+
+.register-box{
+    width: 40%;
+    margin: 50px auto;
+}
+.main-form{
+    width: 100%;
+    padding: 50px;
+    background: rgb(236, 236, 224);
+    border: 3px solid rgb(38, 9, 167);
+    border-radius: 20px;
+}
+.main-form .avatar-img{
+    width: 100%;
+    text-align: center;
+}
+.main-form .avatar-img .avatar{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid rgb(38, 9, 167);
+}
+.main-form h2{
+    font-size: 42px;
+    line-height: 52px;
+    color: rgb(38, 9, 167);
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px 0px;
+}
+.main-form .form-group{
+    width: 100%;
+    margin: 15px 0px;
+}
+.main-form .form-group label{
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0px 0px 5px;
+    text-align: left;
+}
+.main-form .form-contorl{
+    width: 98%;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid black;
+
+}
+.main-form .btn-btn{
+    padding: 15px 40px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 15px 0px 0px;
+    cursor: pointer;
+}
+.main-form .btn-btn:hover{
+    letter-spacing: 5px;
+    transition: 1s;
+    border: 1px solid black;
+    background: transparent;
+    color: rgb(38, 9, 167);
+}
+.social-icon{
+    width: 100%;
+    padding: 40px 0px;
+}
+.social-icon .icons{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.social-icon .icons li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icon .icons li a{
+    display: block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 22px;
+    margin: 0px 10px;
+    background-color: rgb(236, 236, 224);
+    color:  rgb(38, 9, 167);
+    border: 1px solid rgb(38, 9, 167);
+    border-radius: 50%;
+    transition: 1.5s;
+}
+.social-icon .icons li a:hover{
+    color: rgb(236, 236, 224);
+    background-color: rgb(38, 9, 167);
+    }
